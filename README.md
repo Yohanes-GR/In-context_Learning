@@ -21,10 +21,10 @@ job_description_eda.ipynb: a jupyter notebook that Explanatory Data Analysis
 job_description_context.ipynb: a jupyter notebook for testing different techniques using LLM
 ### scripts
 Different python utility scripts that have different purposes.
-### tests
-root folder
+#### tests
 
-### requirements.txt: a text file lsiting the projet's dependancies
+### root folder
+
+requirements.txt: a text file lsiting the projet's dependancies
 .gitignore: a text file listing files and folders to be ignored
-
-## README.md: Markdown text with a brief explanation of the project and the repository structure.
+README.md: Markdown text with a brief explanation of the project and the repository structure.
