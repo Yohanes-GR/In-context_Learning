@@ -1,3 +1,4 @@
+
 mkdir -p ~/.flaskapp/
 echo "\
 [server]\n\
