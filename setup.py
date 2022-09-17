@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
     ],
-    description="Prompt Engineering",
+    description="In-context learning",
     install_requires=requirements,
     long_description=readme,
     include_package_data=True,
@@ -35,7 +35,7 @@ setup(
                                     'tests', 'notebooks','logs', 'dvc-storage']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/natyrix/Prompt-Engineering',
+    url='https://github.com/Yohanes-GR/In-context_Learning',
     version='1.0.0',
     zip_safe=False,
 )
