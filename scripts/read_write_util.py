@@ -11,7 +11,8 @@ class ReadWriteUtil():
     def dvc_get_data(self, path, version='v1'):
         data = []
         try:
-            repo = "/home/n/Documents/10_Academy/Prompt-Engineering"
+           
+            repo = "/users/mo/Desktop/10_Academy-project/In-context_Learning"
             data_url = dvc.api.get_url(path=path, repo=repo, rev=version)
             data_url = str(data_url)[6:]
             with open(data_url, 'r') as f:
